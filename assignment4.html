@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!------
+Salma Mobasher
+8120214
+Due March 24,2021
+--->
+<html>
+<head lang="en">
+	<title> students</title>
+
+	<link rel="stylesheet" href="mystyle.css">
+	<meta charset="utf-8">
+	<meta name="description" content="HTML5 stuff here">
+	<meta name ="keywords" content="html5 tags, html5 elements">
+</head>
+	<form method="post" action="http://localhost/assignment44.php">
+<body style="background-color:salmon;"> <!--makes background salmon coloured-->
+	<h1>Student input</h1>
+
+	<div>
+    <label for="Course Name">What is the course name?</label>
+    <input type="text" id="courseName" name="courseName" pattern="[A-Za-z]+" autofocus  minlength="1" maxlength="100">
+  </div>
+  
+  <p>
+    <label for="courseGrade">What is student's grade?</label>
+    <input type="text" id="courseGrade" name="courseGrade" pattern="[0-9][0-9]+" autofocus  minlength="1" maxlength="100">
+ 
+  </p>
+  
+  <p>
+    <label for="studentID">Please enter student's 6-digit ID number:</label>
+      <input type="text"  pattern="[0-9][0-9][0-9][0-9][0-9][0-9]" id="studentID" name="studentID"    >
+		
+  </p>
+
+ 
+ <button>Send</button>
+  <button><input type="reset"></button>
+  
+	
+	
+	
+	</form>
+    <br><br><br><br><br><br> <!--added these line breakers to putsh the menu thing down to the bottom of page-->
+    <br><br><br><br><br><br><br><br>
+</body>
+<footer>
+	<nav class="move">
+	Check out the other tables:<br>
+		<ul>		
+			<li><a href="http://localhost/students.php">Students</a><br></li>
+			<li><a href="http://localhost/course.php">Courses</a></li>
+			<li><a href="http://localhost/grades.php">Course Grades</a></li>
+		</ul>
+	</nav>
+		<p>&copy;Copyright 2021</p>
+</footer>
+</html>
